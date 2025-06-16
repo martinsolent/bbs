@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Post Message</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bbs-container">
+    <h1>📤 POST A MESSAGE</h1>
+    <form id="messageForm">
+      <label>
+        From:<br>
+        <input type="text" id="from" required />
+      </label><br><br>
+      <label>
+        Subject:<br>
+        <input type="text" id="subject" required />
+      </label><br><br>
+      <label>
+        Message:<br>
+        <textarea id="body" rows="5" required></textarea>
+      </label><br><br>
+      <button type="submit">Submit Message</button>
+    </form>
+    <p><a href="index.html">← Back to Menu</a></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
